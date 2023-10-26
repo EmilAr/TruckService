@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckService.Api", "TruckService.Api\TruckService.Api.csproj", "{F7C4F51F-F9B1-4357-BE74-EBD4CCA97618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckService.Api", "TruckService.Api\TruckService.Api.csproj", "{F7C4F51F-F9B1-4357-BE74-EBD4CCA97618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{BB6D99F8-6EF0-4B3C-86BD-1922467A2F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F7C4F51F-F9B1-4357-BE74-EBD4CCA97618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C4F51F-F9B1-4357-BE74-EBD4CCA97618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C4F51F-F9B1-4357-BE74-EBD4CCA97618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6D99F8-6EF0-4B3C-86BD-1922467A2F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6D99F8-6EF0-4B3C-86BD-1922467A2F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6D99F8-6EF0-4B3C-86BD-1922467A2F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6D99F8-6EF0-4B3C-86BD-1922467A2F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
